@@ -18,7 +18,7 @@ class Tenant
   end
 end
 
-p1 = Tenant.new("Calvin Clifford", "Baxter", "male", "December 21st, 1929")
-p1.nickname = "Bud"
-p1.occupation = "Office Drone"
-puts p1.full_name
+@p1 = Tenant.new("Calvin Clifford", "Baxter", "male", "December 21st, 1929")
+@p1.nickname = "Bud"
+@p1.occupation = "Office Drone"
+@p1.full_name
